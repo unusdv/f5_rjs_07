@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@1&family=Roboto&display=swap');
+
+.shoes-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    border-radius: 50%;
+    
+}
+.shoes-wrapper{
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    // background-color: red;
+}
+.shoe-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.shoe-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.shoe-price {
+    font-size: 16px;
+    color: #888;
+}
+
+.shoe-description {
+    font-size: 14px;
+    color: #555;
+}
+.text{
+    display: flex;
+    gap: 50px;
+    color: #191919;
+
+    font-family: 'ABeeZee';
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 32px;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    // background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  

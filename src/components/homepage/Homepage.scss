@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@1&family=Roboto&display=swap');
+
+.main-wrapper{
+    display: flex;
+    background-color: rgb(186, 108, 36);
+    color: #5C1B05;
+    font-family: 'ABeeZee';
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 46.8px;
+    padding-bottom: 25px;
+    padding-top: 15px;
+    // margin-bottom: 20px;
+    // justify-content: space-between;
+    p{
+        color: #5C1B05;
+        font-family: 'ABeeZee';
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22.1px;
+    }
+        
+        button{
+            color: #5C1B05;
+            border: none;
+            border: 1px solid #5C1B05;
+            background: none;
+            text-align: center;
+            font-family: 'ABeeZee';
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20.8px;
+            width: 140px;
+            height: 44px;
+        }
+}
+.main-item{
+    // background-color: #fff;
+    background-color: rgb(186, 108, 36);
+    margin-left: 25px;
+}
+.swppp{
+    position: relative;
+    margin-left: 50px;
+    width: 920px;
+    // background-color: #fff;.
+    
+}
+
+.category-wrapper{
+    width: 306px;
+    height: 346px;
+    // background-color: red;
+    h2{
+        width: 100%;
+        color: #000;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 16px;
+        margin-bottom: 16px;
+        text-align: left;
+        margin-top: 15px;
+    
+    }
+}
+
+.category-images{
+    // width: 100%;
+    // height: 100%;
+    // background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 10px;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    // background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  

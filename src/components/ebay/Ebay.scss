@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@1&family=Roboto&display=swap');
+
+.ebay {
+    width: 100%;
+    display: flex;
+    // flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    // background-color: #be6e6e;
+}
+.ebay-item {
+    // width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    padding: 10px;
+    text-align: left;
+    span{
+        color: #707070;
+        font-family: 'ABeeZee';
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 11px;
+        }
+    img{
+        background: none;
+        margin-top: 20px;
+    }
+    p{
+        color: #191919;
+        font-family: 'ABeeZee';
+        font-size: 20px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 26px;
+    }
+    button{
+        color: #000;
+        text-align: center;
+        font-family: 'ABeeZee';
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 170px;
+        height: 40px;
+        background: none;
+        border: none;
+        border: 1px solid #000;
+    }
+}
+.image{
+    margin-left: 10px;
+}

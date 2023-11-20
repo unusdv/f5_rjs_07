@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@1&family=Roboto&display=swap');
+
+.footer div {
+    display: flex;
+    justify-content: space-between;
+    // gap: 0 20px;
+}
+
+.footer ul {
+    /* Add your styles for the <ul> element here */
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 20px 0 ; 
+}
+
+.footer div ul li {
+    /* Add your styles for the <li> elements here */
+    color: #767676;
+    font-family: 'ABeeZee';
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    
+
+}
+
+.footer ul .menu-item{
+    margin-bottom: 16px;
+    margin-top: 28px;
+    font-family: 'ABeeZee';
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 16px;
+}
+.footer select {
+    height: 32px;
+    width: 130px;
+    border: none;
+    border: 1px solid #767676;
+    background-color:  #f4f1f1;
+
+}
+.footer p{
+    color: #767676;
+    font-family: 'ABeeZee';
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    margin-top: 28px;
+    margin-bottom: 16px;
+}
+
+
